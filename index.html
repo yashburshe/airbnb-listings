@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>SF Airbnb Listings</h1>
+        <section class="listings">
+        </section>
+        <div class="pagination-controls">
+            <button id="btn-prev" onclick="changePage(-1)">&lt;</button>
+            <span id="page-count">Page 1</span>
+            <button id="btn-next" onclick="changePage(1)">&gt;</button>
+        </div>
+    </main>
+    <footer>
+        <div>Made by Yash with ❤️</div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
